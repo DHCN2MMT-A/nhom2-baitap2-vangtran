@@ -1,0 +1,38 @@
+nav{
+	float: right;
+}
+h1{
+	text-align: center;
+	color: red;
+	padding-top: 50px;
+}
+body .box{height: 360px;}
+body section .box {height: auto;}
+
+.leftBox{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.rightBox{
+	float: right;
+	width: 50%
+}
+
+#ComFou h3{
+	text-align: center;
+}
+#ComFou img{width: 300px;}
+.centerBox{padding-top: 100px; text-align: center;}
+#Awards h3, #PopMedia h3 {text-align: center;}
+#Awards li:nth-child(2n-1) {
+	color: red;
+}
+#PopMedia li:nth-child(2n){
+	color: red;
+}
+section:nth-child(2){height: 275px;}
+section:nth-child(3){height: 300px;}
+section:nth-child(4) .leftBox{height: 415px;}
+/* section:nth-child(5) .leftBox{height: 320px;} */
+iframe:nth-child(2) {padding-top: 500px;}
